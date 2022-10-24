@@ -10,7 +10,7 @@ import obra06 from "../../../../assets/obra06.jpg";
 export function Projects() {
   return (
     <ProjectsContainer id="projects">
-      <h2>Projetos da obra</h2>
+      <h2>OBRAS</h2>
 
       <ProjectsImg>
         <img src={obra01} alt="" />
