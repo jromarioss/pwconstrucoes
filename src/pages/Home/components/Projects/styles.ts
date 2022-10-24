@@ -4,6 +4,8 @@ export const ProjectsContainer = styled.section`
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
   padding-inline: 1rem;
   
@@ -12,8 +14,14 @@ export const ProjectsContainer = styled.section`
   }
 
   @media (min-width: 1024px) {
+    padding-inline: 0;
+    padding-top: 3.5rem;
     width: 60rem;
     margin: auto;
+
+    h2 {
+      font-size: 3rem;
+    }
   }
 
   @media (min-width: 1440px) {

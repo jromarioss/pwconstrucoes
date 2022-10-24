@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CarouselContainer = styled.div`
+export const CarouselContainer = styled.section`
   position: relative;
   margin-top: 4rem;
 
@@ -22,7 +22,6 @@ export const CarouselContainer = styled.div`
     
     @media (min-width: 1024px) {
       height: 32rem;
-      
     }
   }
 `;

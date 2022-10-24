@@ -46,6 +46,7 @@ export const AboutContainer = styled.section`
     margin-top: 7rem;
     flex-direction: row;
     justify-content: space-between;   
+    padding-inline: 0;
 
     img {
       display: block;
