@@ -38,6 +38,11 @@ export const CarouselTitle = styled.div`
   letter-spacing: 1px;
   text-shadow: 1px 1px 1px ${props => props.theme["gray-700"]};
 
+  img {
+    background-position: center;
+    background-size: cover;
+  }
+
   h2 {
     font-size: 1.75rem;
   }

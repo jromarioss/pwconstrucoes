@@ -48,6 +48,10 @@ export const AboutContainer = styled.section`
     justify-content: space-between;   
     padding-inline: 0;
 
+    p {
+      font-size: 1.25rem;
+    }
+
     img {
       display: block;
       width: 21.875rem;

@@ -16,7 +16,7 @@ export function Footer() {
       </FooterContent>
       <p>E-mail: pwconstrucoes10@gmail.com</p>
       <FooterBottom>
-        <small>PW &copy; Todos Direitos reservados</small>
+        <small>PW Construções &copy; Todos Direitos reservados</small>
       </FooterBottom>
     </FooterContainer>
   );
