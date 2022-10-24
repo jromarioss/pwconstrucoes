@@ -1,16 +1,25 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
-  width: 100vw;
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding-bottom: 200rem;
 
-  @media (max-width: 425px) {
-    img {
-      width: 250px;
-    }
+  @media (min-width: 375px) {
+    gap: 1.5rem;
+  }
+
+  @media (min-width: 425px) {
+    gap: 2rem;
+  }
+
+  @media (min-width: 728px) {
+    gap: 3rem;
+  }
+
+  @media (min-width: 1024px) {
+    
+  }
+
+  @media (min-width: 1440px) {
+    
   }
 `;

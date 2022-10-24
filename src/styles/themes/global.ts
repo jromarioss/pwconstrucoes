@@ -11,6 +11,6 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    color: ${props => props.theme["base-text"]};
+    color: ${props => props.theme["gray-700"]};
   }
 `;

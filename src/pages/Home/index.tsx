@@ -1,10 +1,20 @@
+import { Fade } from "react-awesome-reveal";
+
+import { About } from "./components/About/inde";
+import { Carousel } from "./components/Carousel";
+import { Projects } from "./components/Projects/index;";
 import { HomeContainer } from "./styles";
 
 export function Home() {
   return (
     <HomeContainer>
-        <h1>Site em Manutenção....</h1>
-        <img src="https://www.linknacional.com.br/wp-content/uploads/2020/02/importancia-manuten%C3%A7%C3%A3o-do-site.jpeg" alt="" width={500} />
+      <Carousel />
+      <Fade delay={300} duration={1000}>
+        <About />
+      </Fade>
+      <Fade delay={300} duration={1000}>
+        <Projects />
+      </Fade>
     </HomeContainer>
   );
 }
